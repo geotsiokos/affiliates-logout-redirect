@@ -40,7 +40,7 @@ function affiliates_logout_redirect( $atts, $content = null ) {
 	$options = shortcode_atts(
 			array(
 					'redirect_to_post' => null					
-			),$attr
+			),$atts
 	);
 	
 	$redirect_url = isset( $options['redirect_to_post'] ) ? $options['redirect_to_post'] : '';
